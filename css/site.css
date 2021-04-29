@@ -1,0 +1,102 @@
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0
+}
+body{font-family: "Sofia", Josefin Slab;
+	font-size:20px;
+	letter-spacing: 0.8px;
+	line-height: 33px;
+}
+header{
+	position: absolute;
+	height: 100px;
+	width: 80%;
+	margin: 0 auto;z-index: 1000;
+	color: white;
+	left: 200px;
+	}
+.logo{
+	width:20%;
+	float: left;
+}
+.img100{
+	width: 60%;
+}
+.clearfix{
+	clear: both;
+}
+.mn1{
+	width: 30%;
+	padding-right: 120px;
+	float: left;
+	}
+.mn2{
+	width: 30%;
+	float: right;
+	padding:0 10px;
+	}
+nav ul{list-style: none;padding: 40px 0}
+nav ul li{float: left}
+nav ul li a{display: block; text-decoration: none;
+padding: 10px;color: white; font-size: 18px}
+.mn2 ul{list-style: none;padding: 40px 10px;}
+.mn2 ul li{float: left}
+.mn2 ul li a{display: block; text-decoration: none;
+padding: 10px;color: white; font-size: 18px}
+.search1{
+	float: left;
+	margin-left: 20px;
+	padding: 8px 15px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+nav ul li:hover a{
+	border-bottom: 1px solid white;
+}
+.mn2 ul li:hover a{
+	border-bottom: 1px solid white;
+}
+main{width: 100%;}
+#banner{
+	width: 100%;
+	height: 100vh;
+	overflow:hidden;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+}
+.thanhcuon{width:800px;height:2px;background:black;margin:150px 400px 40px}
+#sc1{
+	width:90%;
+	margin:0 auto;
+}
+.w25{width:23%;
+	float:left;
+	padding:1%;
+	}
+.img25{width:100%}
+#sc1 p{font-family: "Sofia", Arizonia; padding:20px 200px;font-size:54px}
+.w25 i{padding:20px}
+#sc2{
+	width:100%;;background: rgba(213,185,186,1.00);height:760px;
+	position:relative;
+	margin-top:120px;
+	}
+#sc2 p{font-size:14px;left:25%;position:absolute;top:150px}
+#sc2 h1{font-size:58px;line-height:60px ;left:25%;position:absolute;top:220px}
+#sc2 i{font-family: "Sofia", Arizonia;font-size:20px;left:25%;position:absolute;top:390px}
+.img1{width:25%;position:absolute;top:100px;left:55%}
+.img2{width:10%;position:absolute;top:140px;left:48%;z-index:22;opacity:0.8}
+#sc3{
+	width:100%;
+	position:relative;
+	padding:120px 0;
+}
+#sc3 p{position:absolute;top:130px;left:44%;z-index: 25}
+#sc3 b{position:absolute;top:205px;left:27%;text-align: center;font-size: 78px;line-height:70px;z-index: 26}
+#sc3 img{width:60%;position:absolute;left:20%;z-index: 23;top:220px}
+footer{width:100%;background:black;margin:0 auto;height:100px;position:absolute;top:3800px;}
+footer p{color:white;padding:35px 50px;}
+
